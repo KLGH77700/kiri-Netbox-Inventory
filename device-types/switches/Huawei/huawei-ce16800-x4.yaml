@@ -1,0 +1,65 @@
+# huawei-ce16800-x4.yaml
+manufacturer: Huawei
+model: CloudEngine 16800-X4
+slug: huawei-ce16800-x4
+part_number: CE16800-X4-AH
+front_image: true
+rear_image: true
+u_height: 10
+is_full_depth: true
+weight: 94.1
+weight_unit: kg
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: MPU Slot 1
+    position: '1'
+  - name: MPU Slot 2
+    position: '2'
+  - name: Line Card Slot 1
+    position: '3'
+  - name: Line Card Slot 2
+    position: '4'
+  - name: Line Card Slot 3
+    position: '5'
+  - name: Line Card Slot 4
+    position: '6'
+  - name: Fabric Slot 1
+    position: '7'
+  - name: Fabric Slot 2
+    position: '8'
+  - name: Fabric Slot 3
+    position: '9'
+  - name: Fabric Slot 4
+    position: '10'
+  - name: Fabric Slot 5
+    position: '11'
+  - name: Fabric Slot 6
+    position: '12'
+  - name: Fabric Slot 7
+    position: '13'
+  - name: Fabric Slot 8
+    position: '14'
+  - name: Fabric Slot 9
+    position: '15'
+  - name: Power Supply 1
+    position: '16'
+  - name: Power Supply 2
+    position: '17'
+  - name: Power Supply 3
+    position: '18'
+  - name: Power Supply 4
+    position: '19'
+  - name: Fan Tray 1
+    position: '20'
+  - name: Fan Tray 2
+    position: '21'
+  - name: Fan Tray 3
+    position: '22'
+  - name: Fan Tray 4
+    position: '23'
