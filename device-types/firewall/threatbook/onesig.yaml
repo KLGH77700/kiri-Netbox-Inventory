@@ -1,0 +1,45 @@
+# threatbook-onesig.yaml
+manufacturer: ThreatBook
+model: OneSIG
+slug: threatbook-onesig
+part_number: OneSIG
+front_image: true
+rear_image: true
+u_height: 1
+is_full_depth: false
+
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: MGT
+    type: 1000base-t
+    mgmt_only: true
+  # 8个千兆电口
+  - name: GE0
+    type: 1000base-t
+  - name: GE1
+    type: 1000base-t
+  - name: GE2
+    type: 1000base-t
+  - name: GE3
+    type: 1000base-t
+  - name: GE4
+    type: 1000base-t
+  - name: GE5
+    type: 1000base-t
+  - name: GE6
+    type: 1000base-t
+  - name: GE7
+    type: 1000base-t
+  # 2个万兆SFP+光口
+  - name: XGE0
+    type: 10gbase-x-sfpp
+  - name: XGE1
+    type: 10gbase-x-sfpp
+power-ports:
+  - name: Power
+    type: iec-60320-c14
+module-bays:
+  - name: Power Supply
+    position: '1'

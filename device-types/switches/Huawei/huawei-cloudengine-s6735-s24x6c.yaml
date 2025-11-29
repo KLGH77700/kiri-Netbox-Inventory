@@ -1,0 +1,87 @@
+manufacturer: Huawei
+model: CloudEngine S6735-S24X6C
+slug: huawei-cloudengine-s6735-s24x6c
+part_number: CloudEngine S6735-S24X6C
+u_height: 1
+is_full_depth: true
+weight: 8.74
+weight_unit: kg
+airflow: front-to-rear
+
+interfaces:
+  # 24个10GE SFP+端口
+  - name: 10GigabitEthernet1/0/1
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/2
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/3
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/4
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/5
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/6
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/7
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/8
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/9
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/10
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/11
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/12
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/13
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/14
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/15
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/16
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/17
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/18
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/19
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/20
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/21
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/22
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/23
+    type: 10gbase-x-sfpp
+  - name: 10GigabitEthernet1/0/24
+    type: 10gbase-x-sfpp
+
+  # 6个40GE/100GE QSFP28端口
+  - name: 100GigabitEthernet1/0/25
+    type: 100gbase-x-qsfp28
+  - name: 100GigabitEthernet1/0/26
+    type: 100gbase-x-qsfp28
+  - name: 100GigabitEthernet1/0/27
+    type: 100gbase-x-qsfp28
+  - name: 100GigabitEthernet1/0/28
+    type: 100gbase-x-qsfp28
+  - name: 100GigabitEthernet1/0/29
+    type: 100gbase-x-qsfp28
+  - name: 100GigabitEthernet1/0/30
+    type: 100gbase-x-qsfp28
+
+module-bays:
+  # 电源模块槽位
+  - name: Power Supply 1
+    position: '1'
+  - name: Power Supply 2
+    position: '2'
+  
+  # 风扇模块槽位
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
