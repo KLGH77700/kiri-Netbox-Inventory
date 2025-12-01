@@ -1,0 +1,25 @@
+manufacturer: Huawei
+model: 88-D8CQ
+slug: huawei-futurematrix-88-d8cq
+part_number: 88-D8CQ
+u_height: 0
+is_full_depth: false
+
+interfaces:
+  # 8个100GE QSFP28端口
+  - name: 100GigabitEthernet1/0/1
+    type: 100gbase-x-qsfp28
+  - name: 100GigabitEthernet1/0/2
+    type: 100gbase-x-qsfp28
+  - name: 100GigabitEthernet1/0/3
+    type: 100gbase-x-qsfp28
+  - name: 100GigabitEthernet1/0/4
+    type: 100gbase-x-qsfp28
+  - name: 100GigabitEthernet1/0/5
+    type: 100gbase-x-qsfp28
+  - name: 100GigabitEthernet1/0/6
+    type: 100gbase-x-qsfp28
+  - name: 100GigabitEthernet1/0/7
+    type: 100gbase-x-qsfp28
+  - name: 100GigabitEthernet1/0/8
+    type: 100gbase-x-qsfp28

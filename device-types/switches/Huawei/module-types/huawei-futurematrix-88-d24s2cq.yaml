@@ -1,0 +1,63 @@
+manufacturer: Huawei
+model: 88-D24S2CQ
+slug: huawei-futurematrix-88-d24s2cq
+part_number: 88-D24S2CQ
+u_height: 0
+is_full_depth: false
+
+interfaces:
+  # 24个25GE SFP28端口
+  - name: 25GigabitEthernet1/0/1
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/2
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/3
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/4
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/5
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/6
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/7
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/8
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/9
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/10
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/11
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/12
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/13
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/14
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/15
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/16
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/17
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/18
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/19
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/20
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/21
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/22
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/23
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet1/0/24
+    type: 25gbase-x-sfp28
+
+  # 2个100GE QSFP28端口
+  - name: 100GigabitEthernet1/0/25
+    type: 100gbase-x-qsfp28
+  - name: 100GigabitEthernet1/0/26
+    type: 100gbase-x-qsfp28

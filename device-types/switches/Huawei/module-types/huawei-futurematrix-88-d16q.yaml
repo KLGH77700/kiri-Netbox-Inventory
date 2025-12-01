@@ -1,0 +1,41 @@
+manufacturer: Huawei
+model: 88-D16Q
+slug: huawei-futurematrix-88-d16q
+part_number: 88-D16Q
+u_height: 0
+is_full_depth: false
+
+interfaces:
+  # 16个40GE QSFP+端口
+  - name: 40GigabitEthernet1/0/1
+    type: 40gbase-x-qsfpp
+  - name: 40GigabitEthernet1/0/2
+    type: 40gbase-x-qsfpp
+  - name: 40GigabitEthernet1/0/3
+    type: 40gbase-x-qsfpp
+  - name: 40GigabitEthernet1/0/4
+    type: 40gbase-x-qsfpp
+  - name: 40GigabitEthernet1/0/5
+    type: 40gbase-x-qsfpp
+  - name: 40GigabitEthernet1/0/6
+    type: 40gbase-x-qsfpp
+  - name: 40GigabitEthernet1/0/7
+    type: 40gbase-x-qsfpp
+  - name: 40GigabitEthernet1/0/8
+    type: 40gbase-x-qsfpp
+  - name: 40GigabitEthernet1/0/9
+    type: 40gbase-x-qsfpp
+  - name: 40GigabitEthernet1/0/10
+    type: 40gbase-x-qsfpp
+  - name: 40GigabitEthernet1/0/11
+    type: 40gbase-x-qsfpp
+  - name: 40GigabitEthernet1/0/12
+    type: 40gbase-x-qsfpp
+  - name: 40GigabitEthernet1/0/13
+    type: 40gbase-x-qsfpp
+  - name: 40GigabitEthernet1/0/14
+    type: 40gbase-x-qsfpp
+  - name: 40GigabitEthernet1/0/15
+    type: 40gbase-x-qsfpp
+  - name: 40GigabitEthernet1/0/16
+    type: 40gbase-x-qsfpp
