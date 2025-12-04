@@ -1,0 +1,135 @@
+# huawei-taishan-2480.yaml
+manufacturer: Huawei
+model: TaiShan 2480
+slug: huawei-taishan-2480
+part_number: K24R-02
+description: "华为 TaiShan 2480 高性能型服务器，2U机架式，4个鲲鹏920处理器"
+u_height: 2
+is_full_depth: true
+weight: 30.0
+weight_unit: kg
+dimensions: "447mm × 790mm × 86.1mm"
+subdevice_role: parent
+airflow: front-to-rear
+interfaces:
+  # 板载LOM: 4*GE电口
+  - name: GE0
+    type: 1000base-t
+  - name: GE1
+    type: 1000base-t
+  - name: GE2
+    type: 1000base-t
+  - name: GE3
+    type: 1000base-t
+  # 灵活IO卡: 4*10GE或4*25GE光口 (根据选配模块决定)
+  - name: XGE0
+    type: 10gbase-x-sfpp
+  - name: XGE1
+    type: 10gbase-x-sfpp
+  - name: XGE2
+    type: 10gbase-x-sfpp
+  - name: XGE3
+    type: 10gbase-x-sfpp
+power-ports:
+  - name: Power 1
+    type: iec-60320-c20
+  - name: Power 2
+    type: iec-60320-c20
+module-bays:
+  - name: Power Supply 1
+    position: '1'
+  - name: Power Supply 2
+    position: '2'
+  - name: Fan 1
+    position: '3'
+  - name: Fan 2
+    position: '4'
+  - name: Fan 3
+    position: '5'
+  - name: Fan 4
+    position: '6'
+  - name: Fan 5
+    position: '7'
+  - name: Fan 6
+    position: '8'
+  - name: PCIe Slot 1
+    position: '9'
+  - name: PCIe Slot 2
+    position: '10'
+  - name: PCIe Slot 3
+    position: '11'
+  - name: PCIe Slot 4
+    position: '12'
+  - name: PCIe Slot 5
+    position: '13'
+  - name: PCIe Slot 6
+    position: '14'
+  - name: PCIe Slot 7
+    position: '15'
+  - name: PCIe Slot 8
+    position: '16'
+  - name: PCIe Slot 9
+    position: '17'
+  # 硬盘位
+  - name: HDD Slot 1
+    position: '18'
+  - name: HDD Slot 2
+    position: '19'
+  - name: HDD Slot 3
+    position: '20'
+  - name: HDD Slot 4
+    position: '21'
+  - name: HDD Slot 5
+    position: '22'
+  - name: HDD Slot 6
+    position: '23'
+  - name: HDD Slot 7
+    position: '24'
+  - name: HDD Slot 8
+    position: '25'
+  - name: HDD Slot 9
+    position: '26'
+  - name: HDD Slot 10
+    position: '27'
+  - name: HDD Slot 11
+    position: '28'
+  - name: HDD Slot 12
+    position: '29'
+  - name: HDD Slot 13
+    position: '30'
+  - name: HDD Slot 14
+    position: '31'
+  - name: HDD Slot 15
+    position: '32'
+  - name: HDD Slot 16
+    position: '33'
+  - name: HDD Slot 17
+    position: '34'
+  - name: HDD Slot 18
+    position: '35'
+  - name: HDD Slot 19
+    position: '36'
+  - name: HDD Slot 20
+    position: '37'
+  - name: HDD Slot 21
+    position: '38'
+  - name: HDD Slot 22
+    position: '39'
+  - name: HDD Slot 23
+    position: '40'
+  - name: HDD Slot 24
+    position: '41'
+  - name: HDD Slot 25
+    position: '42'
+custom_fields:
+  cpu_model: "鲲鹏920"
+  cpu_count: 4
+  memory_slots: 32
+  memory_type: "DDR4-2933 DIMM"
+  storage_config: "25盘位，2.5英寸SAS/SATA HDD/SSD"
+  raid_support: "RAID 0, 1, 5, 6, 10, 50, 60，支持超级电容掉电保护"
+  pcie_slots: "最多9个PCIe 4.0插槽（3个x16，6个x8）"
+  onboard_network: "1个灵活IO卡（4*10GE/25GE光口）+ 1个板载LOM（4*GE电口）"
+  power_supply: "2个热插拔900W AC / 2000W AC / 1200W DC / 1500W DC，支持1+1冗余"
+  operating_temp: "5℃ ~ 40℃"
+  device_class: "高性能计算"

@@ -1,0 +1,29 @@
+manufacturer: Sangfor
+model: Sangfor XSec
+slug: sangfor-xsec
+part_number: XSec
+u_height: 0  
+is_full_depth: false  
+is_virtual: true  
+weight: 0  
+weight_unit: kg
+subdevice_role: null  
+
+interfaces:
+  - name: mgmt0
+    type: 1000base-t
+    mgmt_only: true
+    label: "管理接口"
+  
+  - name: eth0
+    type: 1000base-t
+    label: "外网接口"
+  - name: eth1
+    type: 1000base-t
+    label: "内网接口"
+  - name: eth2
+    type: 1000base-t
+    label: "DMZ接口"
+  - name: eth3
+    type: 1000base-t
+    label: "日志/审计接口"
